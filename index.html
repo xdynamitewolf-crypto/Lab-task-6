@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="signupForm">
+      <h2>Sign Up</h2>
+
+      <input type="text" id="fname" placeholder="First Name">
+      <small class="error" id="fnameError"></small>
+
+      <input type="text" id="mname" placeholder="Middle Initial" maxlength="1">
+      <small class="error" id="mnameError"></small>
+
+      <input type="text" id="lname" placeholder="Last Name">
+      <small class="error" id="lnameError"></small>
+
+      <input type="text" id="email" placeholder="Email Address">
+      <small class="error" id="emailError"></small>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
